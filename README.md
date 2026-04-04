@@ -37,3 +37,19 @@ conda deactivate
 ```shell
 cookiecutter https://github.com/py-pkgs/py-pkgs-cookiecutter.git
 ```
+
+## 安装测试工具
+
+```shell
+poetry add --group dev pytest
+poetry add --group dev pytest-cov
+```
+
+测试命令,包含代码覆盖率:
+
+```shell
+pytest tests/ --cov=pycounts
+```
+
+工具都安装在pycounts虚拟环境里了。
+
