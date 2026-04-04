@@ -1,0 +1,29 @@
+pycounts
+========
+
+.. py:module:: pycounts
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/pycounts/plotting/index
+   /autoapi/pycounts/pycounts/index
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   pycounts.__version__
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+

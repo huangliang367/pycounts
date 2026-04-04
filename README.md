@@ -53,3 +53,16 @@ pytest tests/ --cov=pycounts
 
 工具都安装在pycounts虚拟环境里了。
 
+## 生成文档
+
+工具安装:
+
+```shell
+ poetry add --group dev myst-nb sphinx-autoapi sphinx-rtd-theme
+```
+
+## 参考文档
+
+```text
+https://py-pkgs.org/welcome
+```

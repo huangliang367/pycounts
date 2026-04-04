@@ -15,7 +15,23 @@ def clean_text(text):
     return text
 
 def count_words(input_file):
-    """Count unique words in a string."""
+    """Count unique words in a string.
+    Words are made lowercase and punctuation is removed before counting.
+
+    Parameters
+    ----------
+    input_file: str
+        Path to text file.
+
+    Returns 
+    ----------
+    collections.Counter
+        dict-like objedct wheres keys are words and values are counts.
+
+    Examples
+    ----------
+    >>> count_words("text.txt")
+    """
     text = load_file(input_file)
     text = clean_text(text)
     words = text.split()
